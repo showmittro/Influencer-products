@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,700&display=swap');
 /* common style  */
 body{
-
+    font-family: 'Poppins', sans-serif;
 }
 /* Navber style  */
 nav{
@@ -12,6 +13,9 @@ nav{
 .logo{
     color: black;
     font-size: 24px;
+}
+.logo h4{
+    margin-right: 200px;
 }
 .nav-links{
     display: flex;
@@ -28,3 +32,49 @@ nav{
     font-size: 18px;
     letter-spacing: 1px;
 }
+/* Banner style start */
+.top-photo-text{
+    display: flex;
+    margin-left: 110px;
+}
+.text-side{
+    width: 582px;
+    height: 270px;
+    margin-top: 50px;
+    
+}
+.short-text h1{
+    font-size: 52px;
+    margin-bottom: 10px;
+}
+.short-text p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.link-btn{ 
+    background-color: #E02C6D;
+    border-radius: 41px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 15px 40px;
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.link-btn a{
+    text-decoration: none;
+    color: white;
+}
+.img-side{
+    margin-left: 133px;
+    margin-top: 50px;
+}
+.img-side img{
+    width: 440px;
+    height: 414px;
+}
+/* Banner style end  */
+
+ /* popular style start  */
+ 
+
