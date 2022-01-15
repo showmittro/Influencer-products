@@ -157,8 +157,18 @@ nav{
 /* btn style end  */
 
 /* footer style start  */
-footer{
-    background-color: rgb(17, 8, 26);    
+.text-media{
+    background-color: rgb(17, 3, 31); 
+    height: 200px;   
+}
+.social-midea{
+    color: #FFFFFF;
+    margin-top: -15px;
+    font-size: 25px;
+
+}
+.fa-instagram, .fa-twitter, .fa-linkedin{
+    margin-right: 10px;
 }
 .footer-title{
     text-align: center;
@@ -169,6 +179,11 @@ footer{
 h1 p{
     margin: -17px;
 }
+.social-midea{
+    text-align: center;
+    margin-top: -15px;
+}
+/* footer style end  */
 
 
 
