@@ -25,6 +25,7 @@ nav{
 .logo{
     color: black;
     font-size: 24px;
+    margin-left: -35px;
 }
 
 .nav-links{
@@ -99,7 +100,7 @@ nav{
 .items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 35px;
+    grid-column-gap: 40px;
     grid-row-gap: 30px;
     margin-top: 70px;
     
@@ -119,7 +120,7 @@ nav{
     font-weight: 500;
 }
 .item-detail{
-    margin-top: -20px;
+   margin: 20px;
 }
 .price{
     font-size: 24px;
@@ -147,5 +148,28 @@ nav{
     color:#AEAEAE;
 }
 /* popular style end  */
+
+/* conrnar-btn style  */
+.cornar-btn{
+    margin-left: 920px;
+    margin-top: -15px;
+}
+/* btn style end  */
+
+/* footer style start  */
+footer{
+    background-color: rgb(17, 8, 26);    
+}
+.footer-title{
+    text-align: center;
+    color: #ffff;
+    padding: 10px;
+    margin-top: 60px;
+}
+h1 p{
+    margin: -17px;
+}
+
+
 
 
